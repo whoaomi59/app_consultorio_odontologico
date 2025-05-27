@@ -68,7 +68,8 @@ const DentalHeader = () => {
           onClick={() => navigateTo("login")}
           className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-blue-50 transition"
         >
-          {currentView === "admin" ? "Cerrar Sesión" : "Iniciar Sesión"}
+          {/*  {currentView === "admin" ? "Cerrar Sesión" : "Iniciar Sesión"} */}
+          Cerrar Sesión
         </button>
       </div>
     </header>
