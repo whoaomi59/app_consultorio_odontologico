@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const DentalAdminPanel = () => {
   const [activeTab, setActiveTab] = useState('citas');
 

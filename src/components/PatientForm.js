@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const PatientForm = ({ onSave, initialData = {} }) => {
+const PatientForm = ({ onSave={}, initialData = {} }) => {
   const [patient, setPatient] = useState({
     nombre: initialData.nombre || '',
     apellido: initialData.apellido || '',
