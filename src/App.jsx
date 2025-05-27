@@ -42,7 +42,7 @@ const AppContent = () => {
       <DentalHeader />
 
       <div className="container mx-auto p-4">
-        {currentView === "home" && <Home />}
+        {/*      {currentView === "home" && <Home />} */}
         {/* ok */}
         {currentView === "agenda" && (
           <AppointmentCalendar

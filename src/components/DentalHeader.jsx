@@ -23,14 +23,14 @@ const DentalHeader = () => {
           <h1 className="text-xl font-bold">SmileCare Center</h1>
         </div>
         <nav className="hidden md:flex space-x-6">
-          <button
+          {/* <button
             onClick={() => navigateTo("home")}
             className={`hover:text-blue-200 ${
               currentView === "agenda" ? "font-bold border-b-2" : ""
             }`}
           >
             home
-          </button>
+          </button> */}
           <button
             onClick={() => navigateTo("agenda")}
             className={`hover:text-blue-200 ${
